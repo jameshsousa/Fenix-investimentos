@@ -6,13 +6,13 @@ body {
     
     background-color: #000000;
     border-radius: 5px;    
-    margin: 0 auto;
+    margin-top: 0;
     position: fixed;
     width: 100%;    
-    border-bottom: 2px solid cyan;    
+    border-bottom: 2px solid cyan;     
 }
 
-img {
+nav img {
     float:left;    
     height: 60px; 
     margin-left: 30px;     
@@ -52,44 +52,50 @@ nav li:hover{
 
 .redes-sociais {
     position: fixed;
-    margin-top: 400px;
+    margin-top: 300px;
     width: 40px;
-    height: 200px;
-    background-color: #ADD8E6;
-    border-radius: 10px;
-    opacity: 0.7;
+    height: 205px;
+    background-color: rgba(180, 255, 255, 0.2);
+    border-radius: 10px; 
+    border: 1px solid gray;       
 }
 
 
-ul {
+.redes-sociais ul {
     margin-top: 10px;
     margin-left: -40px;
 
 }
 
-li {
+.redes-sociais li {
     list-style-type: none;
     padding-bottom: 7px;        
     
 }
 
-i {
-    background-color: orange;
+.redes-sociais li:hover {
+    background-color:  rgba(93, 93, 90, 0.5);    
+}
+
+.chat {
+    position: fixed;
+    margin-top: 860px;
+    margin-left: 1800px;
 }
 
 .login {
     margin-left: 350px;
 }
 
-.destaque {
-    height: 900px;
+.destaque {    
+    height: 1200px;
     width: 100%;
     background-color:cornflowerblue;
 
 }
 
-.destaque img {
-    margin-top: 140px;
+.destaque img { 
+    margin-top: 200px;   
     margin-left: 40px;
     width: 350px;
     height: 350px;
@@ -126,8 +132,44 @@ footer {
     background:#000000;
     height: 100px;
     width: 100%;
-    
+    color: white;    
 }
+
+h6 {
+    margin-top: 55px;
+    margin-left: -90px;
+}
+
+h3 {
+    margin: 20px;
+}
+
+h6, h3 {
+    float: left;
+}
+
+[data-tooltip] {
+    position: relative;
+    font-weight: bold;
+  }
+  
+  [data-tooltip]:after {
+    display: none;
+    position: absolute;
+    top: -40px;
+    padding: 5px;
+    border-radius: 3px;
+    right: calc(100% + 2px);
+    content: attr(data-tooltip);
+    white-space: nowrap;
+    background-color: #0095ff;
+    color: White;
+  }
+  
+  [data-tooltip]:hover:after {
+    display: block;
+  }
+  
     
     
 
