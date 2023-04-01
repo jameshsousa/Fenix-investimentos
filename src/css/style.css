@@ -9,7 +9,8 @@ body {
     margin-top: 0;
     position: fixed;
     width: 100%;    
-    border-bottom: 2px solid cyan;     
+    border-bottom: 2px solid cyan;
+         
 }
 
 nav img {
@@ -18,7 +19,7 @@ nav img {
     margin-left: 30px;     
 }
 
-h1 {
+nav h1 {
     display: inline-block;
     font-size: 25px;    
     color: #FFFFFF;
@@ -88,9 +89,10 @@ nav li:hover{
 }
 
 .destaque {    
-    height: 800px;
+    height: 750px;
     width: 100%;
-    background-color:rgb(208, 213, 221);
+    
+    
 
 }
 
@@ -98,10 +100,19 @@ nav li:hover{
     margin-top: 150px;
     font-weight: bold;
     text-align: center;
+    color: #465eff;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;    
 }
 
 p {
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 18px;
+    color: blue;
+    padding: 25px;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -112,12 +123,59 @@ p {
     height: 350px;
 }
 
-.beneficios {
-    height: 500px;
+.beneficios {    
+    height: 600px;
     width: 100%;
-    background-color: violet;
+    background-color: cornsilk;
 
 }
+
+.beneficios h1 {
+    margin-top: -80px;
+    padding-bottom: 100px;
+}
+
+.beneficios p {
+    padding-right: 50px;
+    
+}
+
+
+.beneficios .container {
+    padding-top: 100px;
+}
+
+.beneficios img {
+    float:left;
+    padding-right: 50px;    
+}
+
+
+.beneficios h2, p {
+    color: blue;
+    padding-right: 090px;
+}
+
+.beneficios p {
+    text-align: left;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .azul {
     background-color: blue;
